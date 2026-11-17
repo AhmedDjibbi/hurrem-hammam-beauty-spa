@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" lang="fr"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Hurrem Hammam | Sanctuaire Thermal &amp; Rituels Précieux</title>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&amp;family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+<!-- Material Symbols Outlined -->
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind CSS with CDN -->
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<!-- Tailwind Config verbatim from Design System -->
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-tertiary-fixed": "#111f11",
+            "inverse-on-surface": "#f5f0eb",
+            "on-tertiary-fixed-variant": "#3c4b3a",
+            "surface-container-highest": "#e6e2dd",
+            "error": "#ba1a1a",
+            "tertiary-fixed": "#d7e7d1",
+            "on-surface-variant": "#4d4540",
+            "background": "#fef8f3",
+            "surface-dim": "#ded9d4",
+            "on-secondary-container": "#785a1a",
+            "surface": "#fef8f3",
+            "on-secondary": "#ffffff",
+            "primary-fixed": "#e9e1dd",
+            "secondary": "#775a19",
+            "surface-container-low": "#f8f3ee",
+            "surface-container-high": "#ece7e2",
+            "on-primary-fixed": "#1e1b19",
+            "primary-fixed-dim": "#ccc5c1",
+            "surface-variant": "#e6e2dd",
+            "on-error-container": "#93000a",
+            "on-surface": "#1d1b19",
+            "on-error": "#ffffff",
+            "secondary-container": "#fed488",
+            "inverse-surface": "#32302d",
+            "tertiary": "#000000",
+            "surface-container-lowest": "#ffffff",
+            "outline": "#7e7570",
+            "surface-container": "#f2ede8",
+            "surface-tint": "#625d5b",
+            "inverse-primary": "#ccc5c1",
+            "on-primary-container": "#888380",
+            "tertiary-container": "#111f11",
+            "secondary-fixed": "#ffdea5",
+            "outline-variant": "#d0c4be",
+            "on-tertiary": "#ffffff",
+            "primary": "#000000",
+            "secondary-fixed-dim": "#e9c176",
+            "on-tertiary-container": "#788875",
+            "tertiary-fixed-dim": "#bbcbb6",
+            "surface-bright": "#fef8f3",
+            "on-secondary-fixed": "#261900",
+            "on-background": "#1d1b19",
+            "on-secondary-fixed-variant": "#5d4201",
+            "on-primary": "#ffffff",
+            "error-container": "#ffdad6",
+            "on-primary-fixed-variant": "#4a4643",
+            "primary-container": "#1e1b19"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.125rem",
+            "lg": "0.25rem",
+            "xl": "0.5rem",
+            "full": "0.75rem"
+          },
+          "spacing": {
+            "margin-tablet": "2rem",
+            "gutter": "1.5rem",
+            "space-lg": "2rem",
+            "gutter-mobile": "1rem",
+            "space-xs": "0.375rem",
+            "space-sm": "0.75rem",
+            "margin-mobile": "1.25rem",
+            "space-xl": "3.5rem",
+            "space-md": "1.25rem",
+            "margin": "4rem"
+          },
+          "fontFamily": {
+            "label-md": ["Manrope"],
+            "headline-sm": ["Playfair Display"],
+            "body-lg": ["Manrope"],
+            "headline-lg-mobile": ["Playfair Display"],
+            "body-sm": ["Manrope"],
+            "display-lg-mobile": ["Playfair Display"],
+            "label-sm": ["Manrope"],
+            "display-lg": ["Playfair Display"],
+            "body-md": ["Manrope"],
+            "label-lg": ["Manrope"],
+            "headline-md": ["Playfair Display"],
+            "headline-lg": ["Playfair Display"]
+          },
+          "fontSize": {
+            "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.08em", "fontWeight": "600" }],
+            "headline-sm": ["22px", { "lineHeight": "30px", "fontWeight": "500" }],
+            "body-lg": ["18px", { "lineHeight": "28px", "fontWeight": "400" }],
+            "headline-lg-mobile": ["30px", { "lineHeight": "38px", "fontWeight": "400" }],
+            "body-sm": ["13px", { "lineHeight": "20px", "fontWeight": "400" }],
+            "display-lg-mobile": ["38px", { "lineHeight": "46px", "letterSpacing": "-0.01em", "fontWeight": "400" }],
+            "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.1em", "fontWeight": "500" }],
+            "display-lg": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.02em", "fontWeight": "400" }],
+            "body-md": ["15px", { "lineHeight": "24px", "fontWeight": "400" }],
+            "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.06em", "fontWeight": "600" }],
+            "headline-md": ["28px", { "lineHeight": "36px", "fontWeight": "500" }],
+            "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.01em", "fontWeight": "400" }]
+          }
+        },
+      },
+    }
+  </script>
+<style>
+    .material-symbols-outlined {
+      font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+      display: inline-block;
+      vertical-align: middle;
+      line-height: 1;
+    }
+    .frost-glass {
+      background: rgba(245, 240, 235, 0.78);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+    }
+    .dark-glass {
+      background: rgba(26, 23, 21, 0.72);
+      backdrop-filter: blur(24px);
+      -webkit-backdrop-filter: blur(24px);
+    }
+    .ornament-rule {
+      position: relative;
+    }
+    .ornament-rule::before, .ornament-rule::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      width: 48px;
+      height: 1px;
+      background-color: #d0c4be;
+    }
+    .ornament-rule::before { right: 100%; margin-right: 16px; }
+    .ornament-rule::after { left: 100%; margin-left: 16px; }
+  </style>
+</head>
+<body class="bg-background text-on-surface antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed">
+<!-- ==========================================
+       SECTION 1: FLOATING TRANSLUCENT TOP APP BAR
+       Mapped from Shared Component: TopNavBar
+       ========================================== -->
+<header class="absolute top-0 inset-x-0 z-50 w-full transition-all duration-300">
+<div class="w-full max-w-7xl mx-auto px-6 md:px-12 py-5 flex justify-between items-center bg-surface-container-low/80 dark:bg-inverse-surface/80 backdrop-blur-md border-b border-outline-variant/40 dark:border-outline/20 shadow-sm">
+<!-- Brand Wordmark & Heritage Subtitle -->
+<a class="flex flex-col group" href="index.html">
+<span class="font-headline-md text-headline-md tracking-wider text-primary dark:text-inverse-primary group-hover:text-secondary transition-colors duration-200">Hurrem Hammam</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant tracking-widest uppercase">Sanctuaire Thermal • Paris</span>
+</a>
+<!-- Center Navigation Links (Exact labels: Home, Services, Contact) -->
+<nav class="hidden md:flex items-center space-x-10">
+<a class="border-b-2 border-secondary text-primary dark:text-secondary-fixed pb-1 font-semibold font-label-lg text-label-lg transition-colors duration-200" href="index.html">Home</a>
+<a class="text-on-surface-variant dark:text-on-primary-container pb-1 transition-colors duration-200 hover:text-secondary dark:hover:text-secondary-fixed font-label-lg text-label-lg" href="services.html">Services</a>
+<a class="text-on-surface-variant dark:text-on-primary-container pb-1 transition-colors duration-200 hover:text-secondary dark:hover:text-secondary-fixed font-label-lg text-label-lg" href="contact.html">Contact</a>
+</nav>
+<!-- Trailing Action Cluster -->
+<div class="flex items-center space-x-4">
+<!-- VIP Concierge Secondary Action -->
+<a class="hidden sm:inline-flex items-center space-x-1 px-4 py-2 rounded-lg border border-secondary text-on-surface font-label-md text-label-md hover:bg-secondary/10 transition-all duration-300" href="contact.html">
+<span class="material-symbols-outlined text-secondary" style="font-size: 16px;">spa</span>
+<span>VIP Concierge</span>
+</a>
+<!-- Reserve Sanctuary Primary Action -->
+<a class="inline-flex items-center space-x-2 bg-primary-container text-surface-container-low hover:bg-primary px-5 py-2.5 rounded-lg font-label-md text-label-md tracking-wider transition-all duration-300 active:scale-95 shadow-sm" href="#reservation">
+<span class="material-symbols-outlined text-secondary-fixed" style="font-size: 16px;">calendar_month</span>
+<span>Reserve Sanctuary</span>
+</a>
+</div>
+</div>
+</header>
+<!-- ==========================================
+       SECTION 2: FULL-BLEED 100VH HERO SANCTUARY
+       Utilizing image https://lh3.googleusercontent.com/aida/ALJJyrDJ4Q2SLNlVBshrX0K-JU3mclAmEeGJAcc0qMQObA90Cr5HEV82SOiVq2asi5F26-rInWDmxdqMQHArKEbef2eqMueGuZngDkt77X3Pi9MV1ilLK93A41WJi_k6gntszExg9mRCmlXdyqOdh2tF1R_gzs5ytSNlRzRwhUZSFvQpGFOBks8qkF9KvHFEsbSMNdoR5gqU3JbB2M5HinHE1qp53Plue6VGZU5F-hUEXlD0kH2PTYKWofUkUpg
+       ========================================== -->
+<section class="relative w-full min-h-screen flex items-center justify-center overflow-hidden">
+<!-- Full-Bleed Viewport Background Image -->
+<div class="absolute inset-0 w-full h-full">
+<img alt="Hurrem Hammam Grand Dome Sanctuary with Calacatta travertine vaults and soft sunbeams" class="w-full h-full object-cover object-center scale-105 transform animate-pulse" src="https://lh3.googleusercontent.com/aida/ALJJyrDJ4Q2SLNlVBshrX0K-JU3mclAmEeGJAcc0qMQObA90Cr5HEV82SOiVq2asi5F26-rInWDmxdqMQHArKEbef2eqMueGuZngDkt77X3Pi9MV1ilLK93A41WJi_k6gntszExg9mRCmlXdyqOdh2tF1R_gzs5ytSNlRzRwhUZSFvQpGFOBks8qkF9KvHFEsbSMNdoR5gqU3JbB2M5HinHE1qp53Plue6VGZU5F-hUEXlD0kH2PTYKWofUkUpg" style="animation-duration: 12s;"/>
+<!-- Radial & Atmospheric Mist Overlays -->
+<div class="absolute inset-0 bg-gradient-to-t from-primary/80 via-primary/30 to-primary/50 mix-blend-multiply"></div>
+<div class="absolute inset-0 bg-radial from-transparent via-primary/20 to-primary/70"></div>
+</div>
+<!-- Centered Editorial Hero Content -->
+<div class="relative z-10 w-full max-w-5xl mx-auto px-6 md:px-12 pt-32 pb-20 text-center flex flex-col items-center">
+<!-- Prestigious Accolade Pill -->
+<div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-surface-container-lowest/20 backdrop-blur-md border border-secondary-fixed/40 text-surface mb-8">
+<span class="material-symbols-outlined text-secondary-fixed text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-label-sm tracking-widest uppercase text-surface-bright">5-Star World Luxury Spa Awards 2024</span>
+</div>
+<!-- Poetic Editorial Headline -->
+<h1 class="font-display-lg text-display-lg-mobile md:text-display-lg text-surface-bright font-normal max-w-4xl tracking-tight leading-tight mb-6 drop-shadow-md">
+        L'Art Ancestral du Bain et du Repos Absolu
+      </h1>
+<!-- Architectural Serenity Subtitle -->
+<p class="font-body-lg text-body-lg text-surface-container-high/90 max-w-2xl mb-10 leading-relaxed font-light">
+        La rencontre majestueuse entre les voûtes de marbre ottomanes et la pureté austère de l’hydrothérapie scandinave. Une parenthèse sensorielle suspendue hors du temps.
+      </p>
+<!-- Action Buttons -->
+<div class="flex flex-col sm:flex-row gap-4 items-center justify-center w-full max-w-md">
+<a class="w-full sm:w-auto px-8 py-3.5 bg-secondary-fixed text-on-secondary-fixed font-label-lg text-label-lg rounded-lg shadow-lg hover:bg-secondary-fixed-dim transition-all duration-300 transform hover:-translate-y-0.5 text-center" href="#reservation">
+          Prendre Rendez-vous
+        </a>
+<a class="w-full sm:w-auto px-8 py-3.5 bg-surface-container-lowest/15 backdrop-blur-md border border-surface-container-highest/40 text-surface-bright font-label-lg text-label-lg rounded-lg hover:bg-surface-container-lowest/30 transition-all duration-300 text-center" href="#rituels">
+          Découvrir nos Rituels
+        </a>
+</div>
+<!-- Ambient Chamber Meters / Sensory Notes Ribbon -->
+<div class="mt-16 w-full max-w-4xl grid grid-cols-2 md:grid-cols-4 gap-4 pt-8 border-t border-surface-container-lowest/20 text-left">
+<div class="flex items-center space-x-3 bg-inverse-surface/40 backdrop-blur-md p-3.5 rounded-lg border border-outline-variant/20">
+<span class="material-symbols-outlined text-secondary-fixed" style="font-variation-settings: 'FILL' 1;">thermostat</span>
+<div>
+<p class="font-label-sm text-label-sm text-surface-dim uppercase">Calidarium</p>
+<p class="font-body-md text-body-md text-surface-bright font-medium">42°C • Vapeur Chaude</p>
+</div>
+</div>
+<div class="flex items-center space-x-3 bg-inverse-surface/40 backdrop-blur-md p-3.5 rounded-lg border border-outline-variant/20">
+<span class="material-symbols-outlined text-secondary-fixed">soap</span>
+<div>
+<p class="font-label-sm text-label-sm text-surface-dim uppercase">Mousse Soie</p>
+<p class="font-body-md text-body-md text-surface-bright font-medium">Savon Noir d'Alep</p>
+</div>
+</div>
+<div class="flex items-center space-x-3 bg-inverse-surface/40 backdrop-blur-md p-3.5 rounded-lg border border-outline-variant/20">
+<span class="material-symbols-outlined text-secondary-fixed">water</span>
+<div>
+<p class="font-label-sm text-label-sm text-surface-dim uppercase">Immersion</p>
+<p class="font-body-md text-body-md text-surface-bright font-medium">Marbre &amp; Travertin</p>
+</div>
+</div>
+<div class="flex items-center space-x-3 bg-inverse-surface/40 backdrop-blur-md p-3.5 rounded-lg border border-outline-variant/20">
+<span class="material-symbols-outlined text-secondary-fixed">lock</span>
+<div>
+<p class="font-label-sm text-label-sm text-surface-dim uppercase">Confidentialité</p>
+<p class="font-body-md text-body-md text-surface-bright font-medium">Enclaves Privées</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Scroll Indicator -->
+<a class="absolute bottom-6 left-1/2 transform -translate-x-1/2 flex flex-col items-center text-surface-container-high opacity-70 hover:opacity-100 transition-opacity" href="#philosophie">
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-[10px] mb-1">Explorer</span>
+<span class="material-symbols-outlined animate-bounce">expand_more</span>
+</a>
+</section>
+<!-- ==========================================
+       SECTION 3: NARRATIVE & 3 CORNERSTONE PILLARS
+       'Le Sanctuaire des Sens'
+       ========================================== -->
+<section class="py-28 bg-surface-container-low relative" id="philosophie">
+<div class="w-full max-w-7xl mx-auto px-6 md:px-12">
+<!-- Section Title Header -->
+<div class="text-center max-w-2xl mx-auto mb-20">
+<span class="font-label-md text-label-md text-secondary tracking-widest uppercase">Héritage &amp; Philosophie</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-3 mb-6">Le Sanctuaire des Sens</h2>
+<div class="w-16 h-px bg-secondary mx-auto mb-6"></div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+          Inspiré des thermes impériaux de Soliman le Magnifique et de la sérénité minimaliste boréale, Hurrem Hammam redéfinit l'expérience du bain comme une méditation sacrée et réparatrice.
+        </p>
+</div>
+<!-- 3 Cornerstone Pillars Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Pillar 1 -->
+<div class="bg-surface-container-lowest p-8 md:p-10 rounded-lg border border-outline-variant/40 hover:border-secondary/50 transition-all duration-300 flex flex-col justify-between group shadow-sm">
+<div>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed/20 flex items-center justify-center text-secondary mb-6 group-hover:scale-110 transition-transform duration-300">
+<span class="material-symbols-outlined text-2xl">heat_pump</span>
+</div>
+<p class="font-label-sm text-label-sm text-secondary uppercase tracking-widest mb-2">Pilier I</p>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-4">Thermolyse &amp; Vapeurs Pures</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              La diffusion continue d'eucalyptus sauvage et de vapeurs aromatiques dilate les pores et prépare l'esprit à l'abandon total sous nos coupoles sculptées.
+            </p>
+</div>
+<div class="pt-6 mt-6 border-t border-outline-variant/20 flex items-center text-secondary font-label-md text-label-md">
+<span>Rituel Détoxifiant</span>
+<span class="material-symbols-outlined ml-2 text-sm">arrow_forward</span>
+</div>
+</div>
+<!-- Pillar 2 -->
+<div class="bg-surface-container-lowest p-8 md:p-10 rounded-lg border border-outline-variant/40 hover:border-secondary/50 transition-all duration-300 flex flex-col justify-between group shadow-sm">
+<div>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed/20 flex items-center justify-center text-secondary mb-6 group-hover:scale-110 transition-transform duration-300">
+<span class="material-symbols-outlined text-2xl">dry_cleaning</span>
+</div>
+<p class="font-label-sm text-label-sm text-secondary uppercase tracking-widest mb-2">Pilier II</p>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-4">Gommage Kessa &amp; Mousse Soie</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Exfoliation vigoureuse et minutieuse au gant de crin traditionnel et pâte d'olives noires, suivie d’un enveloppement dans un nuage de mousse aérienne tiède.
+            </p>
+</div>
+<div class="pt-6 mt-6 border-t border-outline-variant/20 flex items-center text-secondary font-label-md text-label-md">
+<span>Régénération Cellulaire</span>
+<span class="material-symbols-outlined ml-2 text-sm">arrow_forward</span>
+</div>
+</div>
+<!-- Pillar 3 -->
+<div class="bg-surface-container-lowest p-8 md:p-10 rounded-lg border border-outline-variant/40 hover:border-secondary/50 transition-all duration-300 flex flex-col justify-between group shadow-sm">
+<div>
+<div class="w-14 h-14 rounded-full bg-secondary-fixed/20 flex items-center justify-center text-secondary mb-6 group-hover:scale-110 transition-transform duration-300">
+<span class="material-symbols-outlined text-2xl">sanitizer</span>
+</div>
+<p class="font-label-sm text-label-sm text-secondary uppercase tracking-widest mb-2">Pilier III</p>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-4">Alchimie des Huiles Rares</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Onction finale à l’huile d'argan bio pressée à froid, néroli de Damas et cyprès atlas pour sceller l'hydratation et sublimer la luminosité cutanée.
+            </p>
+</div>
+<div class="pt-6 mt-6 border-t border-outline-variant/20 flex items-center text-secondary font-label-md text-label-md">
+<span>Nutrition Profonde</span>
+<span class="material-symbols-outlined ml-2 text-sm">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==========================================
+       SECTION 4: SIGNATURE CATALOG / OFFERINGS
+       Images: https://lh3.googleusercontent.com/aida/ALJJyrCL7MDD4yGZtVwDV4J_a52PZfUhvKVmbplRCBfFSCYeQYJHTRryLEL21GGAtIwULBqIFKNaJoyejICRUGaHg3tKpv4iKMOyTcXcltg__2lc8fgzgov4Ao5HJn-4r8NUjeT850GnRockvSSOeAWMLfDUuPO4wxNT_ShL6mAhFKH4bvGXqpYKVDrbpWb26jJbrj9W6F58LaH-pGaPoUsitBSAsilCIvP-clReyLKhl_ih5PIvSGEXKsopdK0, https://lh3.googleusercontent.com/aida/ALJJyrCTUm4jXFyW4_Tp23qsLuHFK2SQTUO15gFArdx_5HMV-tX-Snm4TT_wVfedAdGkq-Z0DTvre0UL6drHzys7UdbP7enQNL_QQG_DE6PnlkukmDPpgXhq61vSLyluy6poGltwX-Mhkt2gHVgPgLoRHLdxdyfT3CGvckGxwVwNWIpUAp3Mckd-oUA9QiJftXQJEJXSjUwhldhECVEbEOjFBGM9BTW_ZnZkH4fzd01FKfBXBXJAIYb_1v_3eic, https://lh3.googleusercontent.com/aida/ALJJyrCXqtkgYSGf_rLWEtoCusgJ_IAgpwzuXznFrl23A9WHYeTodnoZMIQtQgjenz8GuMrVClyMDRtd86iwyTLarXwF8i4WI4AObx_t5EOXujNwD90AY7Yt4WeJVMrwG348IgThPivEiMc9E2NSUJ7Gsio4O46afBK5GU_vL3FtMOKRmUMj5s9qQ3Fz92sqCTUfo0g4thSwY34G0oW0IhTvkIhqiQOD8yiwDBM_TbUxpqyaBu2phSvuPRzk34s
+       ========================================== -->
+<section class="py-28 bg-surface relative" id="rituels">
+<div class="w-full max-w-7xl mx-auto px-6 md:px-12">
+<!-- Section Header -->
+<div class="flex flex-col md:flex-row md:items-end justify-between mb-16 pb-6 border-b border-outline-variant/30">
+<div>
+<span class="font-label-md text-label-md text-secondary tracking-widest uppercase">Catalogue Signature</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-2">Les Rituels d'Exception</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-md mt-4 md:mt-0">
+          Chaque protocole d'immersion est orchestré par nos Maîtres de Hammam selon une chorégraphie thermique précise.
+        </p>
+</div>
+<!-- Rituals Cards Grid -->
+<div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+<!-- Ritual 1: Rituel Impérial d’Hürrem (using IMAGE_6) -->
+<article class="bg-surface-container-lowest rounded-lg overflow-hidden border border-outline-variant/40 flex flex-col group hover:shadow-lg transition-all duration-300">
+<div class="relative h-72 overflow-hidden">
+<img alt="Rituel Impérial d'Hürrem avec mousse parfumée et gommage kessa" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida/ALJJyrCL7MDD4yGZtVwDV4J_a52PZfUhvKVmbplRCBfFSCYeQYJHTRryLEL21GGAtIwULBqIFKNaJoyejICRUGaHg3tKpv4iKMOyTcXcltg__2lc8fgzgov4Ao5HJn-4r8NUjeT850GnRockvSSOeAWMLfDUuPO4wxNT_ShL6mAhFKH4bvGXqpYKVDrbpWb26jJbrj9W6F58LaH-pGaPoUsitBSAsilCIvP-clReyLKhl_ih5PIvSGEXKsopdK0"/>
+<div class="absolute top-4 left-4">
+<span class="px-3 py-1 rounded bg-secondary-fixed/90 backdrop-blur-sm text-on-secondary-fixed font-label-sm text-label-sm uppercase tracking-wider font-semibold">Signature Suprême</span>
+</div>
+<div class="absolute bottom-4 right-4 bg-primary-container/85 backdrop-blur-sm text-surface-bright px-3 py-1.5 rounded text-sm font-label-md">
+              90 min • 220 €
+            </div>
+</div>
+<div class="p-8 flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-center gap-2 mb-2 text-secondary">
+<span class="material-symbols-outlined text-sm">spa</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest">Grand Cérémonial</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">Rituel Impérial d’Hürrem</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-6">
+                Le couronnement thermal par excellence. Bain de vapeur aux herbes d'Anatolie, gommage Kessa soyeux sur la table de marbre tiède, lavage mousseux au savon noir d'Alep et onction d'huile tiède.
+              </p>
+<!-- Micro features -->
+<div class="space-y-2 py-4 border-t border-outline-variant/20 mb-6">
+<div class="flex items-center text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary mr-2 text-base">check_circle</span>
+<span>Savon noir artisanal et vapeur 42°C</span>
+</div>
+<div class="flex items-center text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary mr-2 text-base">check_circle</span>
+<span>Massage crânien et infusion de menthe fraîche</span>
+</div>
+</div>
+</div>
+<a class="w-full py-3 text-center bg-primary text-surface-bright font-label-md text-label-md rounded hover:bg-secondary transition-colors duration-200" href="#reservation">
+              Réserver ce Rituel
+            </a>
+</div>
+</article>
+<!-- Ritual 2: Bains Thermaux & Hydro-Vitalité (using IMAGE_5) -->
+<article class="bg-surface-container-lowest rounded-lg overflow-hidden border border-outline-variant/40 flex flex-col group hover:shadow-lg transition-all duration-300">
+<div class="relative h-72 overflow-hidden">
+<img alt="Bains Thermaux et Bassin Hydro-Vitalité bordé de travertin et eucalyptus" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida/ALJJyrCTUm4jXFyW4_Tp23qsLuHFK2SQTUO15gFArdx_5HMV-tX-Snm4TT_wVfedAdGkq-Z0DTvre0UL6drHzys7UdbP7enQNL_QQG_DE6PnlkukmDPpgXhq61vSLyluy6poGltwX-Mhkt2gHVgPgLoRHLdxdyfT3CGvckGxwVwNWIpUAp3Mckd-oUA9QiJftXQJEJXSjUwhldhECVEbEOjFBGM9BTW_ZnZkH4fzd01FKfBXBXJAIYb_1v_3eic"/>
+<div class="absolute top-4 left-4">
+<span class="px-3 py-1 rounded bg-surface-container-high/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm uppercase tracking-wider font-semibold">Hydrothérapie</span>
+</div>
+<div class="absolute bottom-4 right-4 bg-primary-container/85 backdrop-blur-sm text-surface-bright px-3 py-1.5 rounded text-sm font-label-md">
+              60 min • 140 €
+            </div>
+</div>
+<div class="p-8 flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-center gap-2 mb-2 text-secondary">
+<span class="material-symbols-outlined text-sm">pool</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest">Immersion Nordique &amp; Orientale</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">Bains Thermaux &amp; Hydro-Vitalité</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-6">
+                Contraste thermal vivifiant. Alternance harmonieuse entre notre vaste bassin caldarium bouillonnant à 38°C, douches sensorielles en cascade et vasque glacée frigidarium pour une stimulation vasculaire totale.
+              </p>
+<!-- Micro features -->
+<div class="space-y-2 py-4 border-t border-outline-variant/20 mb-6">
+<div class="flex items-center text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary mr-2 text-base">check_circle</span>
+<span>Bassin d'eau enrichie en minéraux marins</span>
+</div>
+<div class="flex items-center text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary mr-2 text-base">check_circle</span>
+<span>Cascade d'eucalyptus et bougies 2200K</span>
+</div>
+</div>
+</div>
+<a class="w-full py-3 text-center bg-primary text-surface-bright font-label-md text-label-md rounded hover:bg-secondary transition-colors duration-200" href="#reservation">
+              Réserver ce Rituel
+            </a>
+</div>
+</article>
+<!-- Ritual 3: Massage Cérémonial Botanique (using IMAGE_4) -->
+<article class="bg-surface-container-lowest rounded-lg overflow-hidden border border-outline-variant/40 flex flex-col group hover:shadow-lg transition-all duration-300">
+<div class="relative h-72 overflow-hidden">
+<img alt="Massage Cérémonial Botanique avec huiles précieuses et ambiance feutrée" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida/ALJJyrCXqtkgYSGf_rLWEtoCusgJ_IAgpwzuXznFrl23A9WHYeTodnoZMIQtQgjenz8GuMrVClyMDRtd86iwyTLarXwF8i4WI4AObx_t5EOXujNwD90AY7Yt4WeJVMrwG348IgThPivEiMc9E2NSUJ7Gsio4O46afBK5GU_vL3FtMOKRmUMj5s9qQ3Fz92sqCTUfo0g4thSwY34G0oW0IhTvkIhqiQOD8yiwDBM_TbUxpqyaBu2phSvuPRzk34s"/>
+<div class="absolute top-4 left-4">
+<span class="px-3 py-1 rounded bg-surface-container-high/90 backdrop-blur-sm text-on-surface font-label-sm text-label-sm uppercase tracking-wider font-semibold">Alchimie Botanique</span>
+</div>
+<div class="absolute bottom-4 right-4 bg-primary-container/85 backdrop-blur-sm text-surface-bright px-3 py-1.5 rounded text-sm font-label-md">
+              75 min • 185 €
+            </div>
+</div>
+<div class="p-8 flex flex-col flex-grow justify-between">
+<div>
+<div class="flex items-center gap-2 mb-2 text-secondary">
+<span class="material-symbols-outlined text-sm">nature</span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest">Soin Holistique</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-3">Massage Cérémonial Botanique</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed mb-6">
+                Massage en profondeur sous les lueurs chaudes des bougies. Pressions lentes et délassantes associées aux vertus régénérantes d'huiles tiédies infusées au bois de cèdre et à la fleur d’oranger.
+              </p>
+<!-- Micro features -->
+<div class="space-y-2 py-4 border-t border-outline-variant/20 mb-6">
+<div class="flex items-center text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary mr-2 text-base">check_circle</span>
+<span>Huiles précieuses personnalisées selon l'état d'esprit</span>
+</div>
+<div class="flex items-center text-on-surface-variant font-body-sm text-body-sm">
+<span class="material-symbols-outlined text-secondary mr-2 text-base">check_circle</span>
+<span>Dégustation d'infusion florale en salon de repos</span>
+</div>
+</div>
+</div>
+<a class="w-full py-3 text-center bg-primary text-surface-bright font-label-md text-label-md rounded hover:bg-secondary transition-colors duration-200" href="#reservation">
+              Réserver ce Rituel
+            </a>
+</div>
+</article>
+</div>
+</div>
+</section>
+<!-- ==========================================
+       SECTION 5: ARCHITECTURAL BENTO GRID
+       'L'Écrin Architectural d’Hürrem'
+       ========================================== -->
+<section class="py-28 bg-surface-container-low relative border-t border-outline-variant/30">
+<div class="w-full max-w-7xl mx-auto px-6 md:px-12">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="font-label-md text-label-md text-secondary tracking-widest uppercase">Espaces &amp; Atmosphères</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-2 mb-4">L'Écrin Architectural d’Hürrem</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">
+          Chaque voûte et fontaine a été sculptée à la main dans des blocs massifs de travertin beige et de marbre blanc immaculé.
+        </p>
+</div>
+<!-- Bento Grid Layout -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-6">
+<!-- Bento 1: Grand Dome Hero Feature (8 cols) -->
+<div class="md:col-span-8 relative rounded-lg overflow-hidden min-h-[420px] group border border-outline-variant/40 shadow-sm flex flex-col justify-end p-8 md:p-12">
+<img alt="Grand Dôme Calidarium avec voûte étoilée et bain thermal central" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida/ALJJyrDJ4Q2SLNlVBshrX0K-JU3mclAmEeGJAcc0qMQObA90Cr5HEV82SOiVq2asi5F26-rInWDmxdqMQHArKEbef2eqMueGuZngDkt77X3Pi9MV1ilLK93A41WJi_k6gntszExg9mRCmlXdyqOdh2tF1R_gzs5ytSNlRzRwhUZSFvQpGFOBks8qkF9KvHFEsbSMNdoR5gqU3JbB2M5HinHE1qp53Plue6VGZU5F-hUEXlD0kH2PTYKWofUkUpg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary/95 via-primary/40 to-transparent"></div>
+<div class="relative z-10">
+<span class="px-3 py-1 bg-secondary-fixed/30 backdrop-blur-sm border border-secondary-fixed/50 text-surface-bright font-label-sm text-label-sm uppercase tracking-wider rounded">Cœur du Sanctuaire</span>
+<h3 class="font-headline-md text-headline-md text-surface-bright mt-3 mb-2">Le Grand Dôme Calidarium</h3>
+<p class="font-body-md text-body-md text-surface-container-high/90 max-w-xl">
+              Sous une coupole ajourée laissant filtrer les rais de lumière naturelle, la pierre centrale chauffée (Göbektaşı) diffuse une onde thermique bienfaisante sur l’ensemble du corps.
+            </p>
+</div>
+</div>
+<!-- Bento 2: Kurna en Marbre (4 cols) -->
+<div class="md:col-span-4 bg-surface-container-lowest rounded-lg border border-outline-variant/40 p-8 flex flex-col justify-between shadow-sm">
+<div>
+<div class="w-12 h-12 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary mb-6">
+<span class="material-symbols-outlined text-2xl">water_drop</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Artisanat</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1 mb-3">Kurna en Marbre de Carrare</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              Bassins individuels en pierre sculptée où l’eau tiède est puisée à l’aide de coupelles en cuivre martelé pour des ablutions répétées d'une douceur inégalée.
+            </p>
+</div>
+<div class="pt-6 border-t border-outline-variant/20 flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span>Température d'eau réglable</span>
+<span class="font-medium text-secondary">36°C • 44°C</span>
+</div>
+</div>
+<!-- Bento 3: Frigidarium & Vasque Glacée (4 cols) -->
+<div class="md:col-span-4 bg-surface-container-lowest rounded-lg border border-outline-variant/40 p-8 flex flex-col justify-between shadow-sm">
+<div>
+<div class="w-12 h-12 rounded-lg bg-secondary-fixed/20 flex items-center justify-center text-secondary mb-6">
+<span class="material-symbols-outlined text-2xl">ac_unit</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Hydro-Vitalité</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1 mb-3">Frigidarium &amp; Vasque Glacée</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">
+              La source d’eau vivifiante à 14°C qui resserre les tissus, réactive la circulation sanguine et confère une énergie nouvelle après la chaleur des étuves.
+            </p>
+</div>
+<div class="pt-6 border-t border-outline-variant/20 flex items-center justify-between text-on-surface-variant font-label-sm text-label-sm">
+<span>Immersion nordique</span>
+<span class="font-medium text-secondary">Bassin 14°C</span>
+</div>
+</div>
+<!-- Bento 4: Suites Privées d'Enclave (8 cols) -->
+<div class="md:col-span-8 bg-surface-container-highest/50 rounded-lg border border-outline-variant/40 p-8 md:p-10 flex flex-col justify-between shadow-sm relative overflow-hidden">
+<div class="relative z-10">
+<span class="px-3 py-1 bg-surface-container-lowest text-secondary font-label-sm text-label-sm uppercase tracking-widest rounded border border-outline-variant/40">VIP • Salon d'Isolement</span>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-3 mb-2">Les Enclaves Privées &amp; Salons d'Alanguissement</h3>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xl mb-4 leading-relaxed">
+              Réservées à nos membres et clients privilégiés, ces suites indépendantes disposent de leur propre calidarium privé, lits de repos en lin brut et service de rafraîchissements signature en toute discrétion.
+            </p>
+</div>
+<div class="relative z-10 pt-4 flex flex-wrap items-center gap-6 text-on-surface font-label-md text-label-md">
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-secondary text-sm">room_service</span>
+<span>Majordome Dédié</span>
+</div>
+<div class="flex items-center space-x-2">
+<span class="material-symbols-outlined text-secondary text-sm">local_bar</span>
+<span>Élixirs Botaniques &amp; Baklavas Maison</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- ==========================================
+       SECTION 6: TESTIMONIALS & PRESS ACCOLADES
+       Deep opulent dark card section
+       ========================================== -->
+<section class="py-24 bg-primary-container text-surface-bright relative overflow-hidden">
+<!-- Subtle glow background element -->
+<div class="absolute -top-40 -right-40 w-96 h-96 rounded-full bg-secondary/10 blur-3xl pointer-events-none"></div>
+<div class="w-full max-w-7xl mx-auto px-6 md:px-12 relative z-10">
+<!-- Section Header -->
+<div class="text-center max-w-2xl mx-auto mb-16">
+<span class="font-label-md text-label-md text-secondary-fixed tracking-widest uppercase">Éloges &amp; Distinctions</span>
+<h2 class="font-headline-lg text-headline-lg text-surface-bright mt-2 mb-4">L'Avis des Patrons &amp; de la Critique</h2>
+<div class="w-12 h-px bg-secondary-fixed/50 mx-auto"></div>
+</div>
+<!-- Testimonials Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Card 1: Condé Nast Traveler -->
+<div class="dark-glass p-8 rounded-lg border border-outline/30 flex flex-col justify-between">
+<div>
+<div class="flex items-center space-x-1 text-secondary-fixed mb-6">
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-headline-sm text-headline-sm italic font-normal text-surface-bright leading-relaxed mb-6">
+              « Le summum du raffinement thermal à Paris. La voûte étoilée d’Hürrem fait revivre la splendeur des bains d'Istanbul avec une sobriété architecturale remarquable. »
+            </p>
+</div>
+<div class="pt-6 border-t border-outline/30">
+<p class="font-label-md text-label-md text-secondary-fixed uppercase tracking-wider">Condé Nast Traveler</p>
+<p class="font-body-sm text-body-sm text-surface-container-high/70">Palmarès des Meilleurs Spas du Monde 2024</p>
+</div>
+</div>
+<!-- Card 2: Harper's Bazaar -->
+<div class="dark-glass p-8 rounded-lg border border-secondary/40 flex flex-col justify-between relative">
+<div class="absolute -top-3 right-6 bg-secondary text-surface-bright px-3 py-0.5 rounded text-[10px] font-label-sm uppercase tracking-widest">
+            Coup de Cœur Folio
+          </div>
+<div>
+<div class="flex items-center space-x-1 text-secondary-fixed mb-6">
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-headline-sm text-headline-sm italic font-normal text-surface-bright leading-relaxed mb-6">
+              « Une déconnexion sensorielle totale. Le gommage au gant kessa et le nuage de savon noir procurent une sensation de légèreté corporelle inédite. »
+            </p>
+</div>
+<div class="pt-6 border-t border-outline/30">
+<p class="font-label-md text-label-md text-secondary-fixed uppercase tracking-wider">Harper's Bazaar Folio</p>
+<p class="font-body-sm text-body-sm text-surface-container-high/70">Revue Luxe &amp; Bien-Être</p>
+</div>
+</div>
+<!-- Card 3: VIP Patron -->
+<div class="dark-glass p-8 rounded-lg border border-outline/30 flex flex-col justify-between">
+<div>
+<div class="flex items-center space-x-1 text-secondary-fixed mb-6">
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-headline-sm text-headline-sm italic font-normal text-surface-bright leading-relaxed mb-6">
+              « L'enclave privée offre une discrétion absolue et un service de majordome impeccable. Mon havre de paix hebdomadaire au cœur du 2ème arrondissement. »
+            </p>
+</div>
+<div class="pt-6 border-t border-outline/30">
+<p class="font-label-md text-label-md text-secondary-fixed uppercase tracking-wider">Éléonore de V.</p>
+<p class="font-body-sm text-body-sm text-surface-container-high/70">Membre Enclave Privée depuis 2021</p>
+</div>
+</div>
+</div>
+<!-- Accreditations & Badges Strip -->
+<div class="mt-16 pt-12 border-t border-outline/20 flex flex-wrap items-center justify-around gap-8 opacity-75">
+<div class="flex items-center space-x-2 text-surface-dim font-label-md text-label-md uppercase tracking-wider">
+<span class="material-symbols-outlined text-secondary-fixed">workspace_premium</span>
+<span>World Luxury Spa Awards</span>
+</div>
+<div class="flex items-center space-x-2 text-surface-dim font-label-md text-label-md uppercase tracking-wider">
+<span class="material-symbols-outlined text-secondary-fixed">verified</span>
+<span>Relais &amp; Sanctuaires Thermaux</span>
+</div>
+<div class="flex items-center space-x-2 text-surface-dim font-label-md text-label-md uppercase tracking-wider">
+<span class="material-symbols-outlined text-secondary-fixed">eco</span>
+<span>Cosmétique Écologique &amp; Huiles Bio</span>
+</div>
+<div class="flex items-center space-x-2 text-surface-dim font-label-md text-label-md uppercase tracking-wider">
+<span class="material-symbols-outlined text-secondary-fixed">military_tech</span>
+<span>Excellence Patrimoniale 2024</span>
+</div>
+</div>
+</div>
+</section>
+<!-- ==========================================
+       SECTION 7: INTERACTIVE CONCIERGE & BOOKING FORM
+       'Réserver Votre Sanctuaire'
+       ========================================== -->
+<section class="py-28 bg-surface-container-low relative" id="reservation">
+<div class="w-full max-w-7xl mx-auto px-6 md:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
+<!-- Left Column: Sanctuary Concierge Details -->
+<div class="lg:col-span-5 flex flex-col justify-between">
+<div>
+<span class="font-label-md text-label-md text-secondary tracking-widest uppercase">Conciergerie Privée</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-2 mb-6">Réserver Votre Immersion</h2>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-8">
+              Afin de préserver la quiétude et l'intimité de nos hôtes, le nombre d'entrées simultanées est strictement limité. Nous vous invitons à planifier votre rituel à l'avance.
+            </p>
+<!-- Key Info Items -->
+<div class="space-y-6">
+<div class="flex items-start space-x-4">
+<div class="w-10 h-10 rounded bg-surface-container-highest flex items-center justify-center text-secondary flex-shrink-0">
+<span class="material-symbols-outlined text-xl">location_on</span>
+</div>
+<div>
+<h3 class="font-label-md text-label-md text-on-surface uppercase tracking-wider">Sanctuaire Parisien</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">18 Rue de la Paix, 75002 Paris, France</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant/70 text-xs">Accès voiturier &amp; conciergerie privée</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="w-10 h-10 rounded bg-surface-container-highest flex items-center justify-center text-secondary flex-shrink-0">
+<span class="material-symbols-outlined text-xl">schedule</span>
+</div>
+<div>
+<h3 class="font-label-md text-label-md text-on-surface uppercase tracking-wider">Heures d'Immersion</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Mardi – Dimanche : 10h00 – 21h30</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant/70 text-xs">Créneaux réservés aux dames le mercredi matin</p>
+</div>
+</div>
+<div class="flex items-start space-x-4">
+<div class="w-10 h-10 rounded bg-surface-container-highest flex items-center justify-center text-secondary flex-shrink-0">
+<span class="material-symbols-outlined text-xl">call</span>
+</div>
+<div>
+<h3 class="font-label-md text-label-md text-on-surface uppercase tracking-wider">Ligne Directe Concierge</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">+33 1 42 68 00 00</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant/70 text-xs">concierge@hurrem-hammam.com</p>
+</div>
+</div>
+</div>
+</div>
+<!-- Schematic Sanctuary Map Preview Card -->
+<div class="mt-10 p-6 rounded-lg bg-surface-container border border-outline-variant/40">
+<div class="flex items-center justify-between mb-3">
+<span class="font-label-sm text-label-sm text-secondary uppercase tracking-widest">Plan • Vestiaires &amp; Rituels</span>
+<span class="material-symbols-outlined text-secondary text-sm">map</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+              Peignoir en coton égyptien, fouta en lin tissé main et mules thermales sont mis à votre disposition dès votre accueil.
+            </p>
+</div>
+</div>
+<!-- Right Column: Interactive Booking Form Card -->
+<div class="lg:col-span-7 bg-surface-container-lowest p-8 md:p-12 rounded-lg border border-outline-variant/40 shadow-md">
+<form class="space-y-6" onsubmit="event.preventDefault(); alert('Votre demande de réservation a été transmise à notre Maître de Maison. Une confirmation personnalisée vous parviendra sous deux heures.');">
+<div class="border-b border-outline-variant/30 pb-4 mb-6">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Demande de Séance au Sanctuaire</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">Veuillez renseigner vos préférences d'accueil thermal.</p>
+</div>
+<!-- Ritual Selector -->
+<div>
+<label class="block font-label-md text-label-md text-on-surface uppercase tracking-wider mb-2" for="rituel-select">Choix du Protocole Thermal</label>
+<select class="w-full bg-surface-container-low/50 border border-outline-variant rounded px-4 py-3 text-on-surface font-body-md text-body-md focus:border-secondary focus:ring-0 transition-colors" id="rituel-select">
+<option value="imperial">Rituel Impérial d’Hürrem • 90 min (220 €)</option>
+<option value="bains">Bains Thermaux &amp; Hydro-Vitalité • 60 min (140 €)</option>
+<option value="massage">Massage Cérémonial Botanique • 75 min (185 €)</option>
+<option value="privatif">Privatisation Complète Enclave Impériale • Demi-journée (sur mesure)</option>
+</select>
+</div>
+<!-- Two Columns: Guests & Date -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<div>
+<label class="block font-label-md text-label-md text-on-surface uppercase tracking-wider mb-2" for="guest-count">Nombre d'Invités</label>
+<select class="w-full bg-surface-container-low/50 border border-outline-variant rounded px-4 py-3 text-on-surface font-body-md text-body-md focus:border-secondary focus:ring-0 transition-colors" id="guest-count">
+<option value="1">1 Personne (Immersion Individuelle)</option>
+<option value="2">2 Personnes (Rituel Duo)</option>
+<option value="3">3 – 4 Personnes (Enclave Privée)</option>
+<option value="privatisation">Plus de 4 (Privatisation Événementielle)</option>
+</select>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface uppercase tracking-wider mb-2" for="booking-date">Date Souhaitée</label>
+<input class="w-full bg-surface-container-low/50 border border-outline-variant rounded px-4 py-3 text-on-surface font-body-md text-body-md focus:border-secondary focus:ring-0 transition-colors" id="booking-date" type="date" value="2025-04-15"/>
+</div>
+</div>
+<!-- Two Columns: Preferred Time & Gender preferences -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<div>
+<label class="block font-label-md text-label-md text-on-surface uppercase tracking-wider mb-2" for="time-slot">Créneau Horaire</label>
+<select class="w-full bg-surface-container-low/50 border border-outline-variant rounded px-4 py-3 text-on-surface font-body-md text-body-md focus:border-secondary focus:ring-0 transition-colors" id="time-slot">
+<option>Matinée • 10h30 – 12h30</option>
+<option>Midi • 13h00 – 15h00</option>
+<option>Après-midi • 15h30 – 17h30</option>
+<option>Nocturne Dorée • 18h30 – 21h00</option>
+</select>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface uppercase tracking-wider mb-2" for="special-wishes">Maître de Bain</label>
+<select class="w-full bg-surface-container-low/50 border border-outline-variant rounded px-4 py-3 text-on-surface font-body-md text-body-md focus:border-secondary focus:ring-0 transition-colors" id="special-wishes">
+<option>Praticienne Femme</option>
+<option>Praticien Homme</option>
+<option>Sans préférence</option>
+</select>
+</div>
+</div>
+<!-- Client Contact Details -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+<div>
+<label class="block font-label-md text-label-md text-on-surface uppercase tracking-wider mb-2" for="client-name">Nom Complet</label>
+<input class="w-full bg-surface-container-low/50 border border-outline-variant rounded px-4 py-3 text-on-surface font-body-md text-body-md placeholder:text-outline focus:border-secondary focus:ring-0 transition-colors" id="client-name" placeholder="Mme / M. ..." required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-md text-label-md text-on-surface uppercase tracking-wider mb-2" for="client-tel">Téléphone</label>
+<input class="w-full bg-surface-container-low/50 border border-outline-variant rounded px-4 py-3 text-on-surface font-body-md text-body-md placeholder:text-outline focus:border-secondary focus:ring-0 transition-colors" id="client-tel" placeholder="+33 6 00 00 00 00" required="" type="tel"/>
+</div>
+</div>
+<!-- Notes -->
+<div>
+<label class="block font-label-md text-label-md text-on-surface uppercase tracking-wider mb-2" for="client-notes">Sensibilités &amp; Demandes Particulières</label>
+<textarea class="w-full bg-surface-container-low/50 border border-outline-variant rounded px-4 py-3 text-on-surface font-body-md text-body-md placeholder:text-outline focus:border-secondary focus:ring-0 transition-colors" id="client-notes" placeholder="Sensibilités aromatiques, anniversaire, accompagnement sur mesure..." rows="3"></textarea>
+</div>
+<!-- Submit CTA -->
+<button class="w-full py-4 bg-primary text-surface-bright hover:bg-secondary font-label-lg text-label-lg rounded tracking-wider uppercase transition-all duration-300 transform active:scale-95 shadow-md flex items-center justify-center space-x-2" type="submit">
+<span class="material-symbols-outlined text-secondary-fixed">bookmark_added</span>
+<span>Confirmer la Demande de Sanctuaire</span>
+</button>
+<p class="text-center font-body-sm text-body-sm text-on-surface-variant/70 text-xs">
+              Aucun prépaiement requis. Annulation gracieuse jusqu'à 24h avant l'immersion.
+            </p>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- ==========================================
+       SECTION 8: EDITORIAL FOOTER
+       Mapped from Shared Component: Footer
+       Exact links: Heritage & Rituals, Sanctuary Etiquette, Signature Catalog, 
+       Private Enclaves, Press & Folio, Privacy Policy, Terms of Sanctuary
+       ========================================== -->
+<footer class="w-full block bg-primary-container dark:bg-surface-container-lowest border-t border-outline-variant/20 dark:border-outline/30">
+<div class="w-full max-w-7xl mx-auto px-6 md:px-12 py-16 flex flex-col gap-12 text-primary-fixed dark:text-on-surface">
+<!-- Top Row: Brand Crest & Philosophy Statement -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-8 items-start">
+<div class="md:col-span-5">
+<span class="font-headline-md text-headline-md tracking-widest text-primary-fixed dark:text-on-surface block mb-3">Hurrem Hammam</span>
+<p class="font-body-sm text-body-sm text-on-primary-container dark:text-on-surface-variant max-w-md leading-relaxed">
+            Sanctuaire de ressourcement inspiré des thermes impériaux de l'Empire Ottoman et de l'austère hydrothérapie nordique. Cérémonies privées du bain, de la vapeur et des huiles sacrées.
+          </p>
+</div>
+<!-- Center: Newsletter / Private Invitations -->
+<div class="md:col-span-7 flex flex-col sm:flex-row gap-4 items-center justify-end">
+<div class="w-full sm:w-auto">
+<p class="font-label-md text-label-md text-secondary-fixed-dim uppercase tracking-wider mb-2">Les Lettres du Sanctuaire</p>
+<p class="font-body-sm text-body-sm text-on-primary-container mb-3">Recevez nos invitations exclusives et correspondances d'herboristerie.</p>
+<form class="flex max-w-md" onsubmit="event.preventDefault(); alert('Vous êtes désormais inscrit aux correspondances privées d’Hürrem Hammam.');">
+<input class="bg-inverse-surface border border-outline-variant/30 text-surface-bright px-4 py-2.5 rounded-l text-sm font-body-sm focus:border-secondary-fixed focus:ring-0 flex-grow" placeholder="Votre adresse email privée..." required="" type="email"/>
+<button class="bg-secondary-fixed text-on-secondary-fixed px-5 py-2.5 rounded-r font-label-md text-label-md hover:bg-secondary-fixed-dim transition-colors" type="submit">
+                Souscrire
+              </button>
+</form>
+</div>
+</div>
+</div>
+<!-- Navigation Links from JSON Blueprint -->
+<div class="py-6 border-y border-outline-variant/10 flex flex-wrap items-center justify-between gap-y-4">
+<a class="text-on-primary-container dark:text-on-surface-variant transition-colors duration-200 hover:text-secondary-fixed dark:hover:text-secondary font-label-md text-label-md" href="#philosophie">Heritage &amp; Rituals</a>
+<a class="text-on-primary-container dark:text-on-surface-variant transition-colors duration-200 hover:text-secondary-fixed dark:hover:text-secondary font-label-md text-label-md" href="services.html">Sanctuary Etiquette</a>
+<a class="text-secondary-fixed-dim dark:text-secondary font-medium transition-colors duration-200 hover:text-secondary-fixed dark:hover:text-secondary font-label-md text-label-md" href="#rituels">Signature Catalog</a>
+<a class="text-on-primary-container dark:text-on-surface-variant transition-colors duration-200 hover:text-secondary-fixed dark:hover:text-secondary font-label-md text-label-md" href="#reservation">Private Enclaves</a>
+<a class="text-on-primary-container dark:text-on-surface-variant transition-colors duration-200 hover:text-secondary-fixed dark:hover:text-secondary font-label-md text-label-md" href="#philosophie">Press &amp; Folio</a>
+<a class="text-on-primary-container dark:text-on-surface-variant transition-colors duration-200 hover:text-secondary-fixed dark:hover:text-secondary font-label-md text-label-md" href="contact.html">Privacy Policy</a>
+<a class="text-on-primary-container dark:text-on-surface-variant transition-colors duration-200 hover:text-secondary-fixed dark:hover:text-secondary font-label-md text-label-md" href="contact.html">Terms of Sanctuary</a>
+</div>
+<!-- Bottom Row: Exact Copyright and Architectural Footnote -->
+<div class="flex flex-col sm:flex-row items-center justify-between gap-4 font-body-sm text-body-sm text-on-primary-container">
+<p>© 2025 Hurrem Hammam &amp; Spa Sanctuary. All rights reserved.</p>
+<p class="text-xs text-on-primary-container/70">18 Rue de la Paix, 75002 Paris • Conçu avec Marbre &amp; Lumière 2200K</p>
+</div>
+</div>
+</footer>
+</body></html>
